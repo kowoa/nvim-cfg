@@ -1,6 +1,7 @@
 return {
   {
     "catppuccin/nvim",
+    enabled = false,
     lazy = true,
     name = "catppuccin",
     opts = {
@@ -44,12 +45,6 @@ return {
         treesitter_context = true,
         which_key = true,
       },
-    },
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
     },
   },
 }
