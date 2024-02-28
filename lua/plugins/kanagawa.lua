@@ -1,6 +1,5 @@
 return {
   "rebelot/kanagawa.nvim",
-  enabled = false,
   lazy = true,
   name = "kanagawa",
   opts = {
