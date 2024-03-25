@@ -2,4 +2,4 @@
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
 
-vim.cmd([[autocmd BufNewFile,BufRead *.comp,*.combined set filetype=glsl]])
+vim.cmd([[autocmd BufNewFile,BufRead *.vert,*.frag,*.comp,*.combined set filetype=glsl]])
