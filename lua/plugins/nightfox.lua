@@ -1,6 +1,7 @@
 return {
   {
     "EdenEast/nightfox.nvim",
+    enabled = false,
     lazy = true,
     opts = function(_, opts)
       opts.styles = {
@@ -12,11 +13,5 @@ return {
         options = opts,
       })
     end,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "duskfox",
-    },
   },
 }
