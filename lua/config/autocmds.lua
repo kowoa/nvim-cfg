@@ -3,3 +3,4 @@
 -- Add any additional autocmds here
 
 vim.cmd([[autocmd BufNewFile,BufRead *.vert,*.frag,*.comp,*.combined set filetype=glsl]])
+vim.cmd([[autocmd BufNewFile,BufRead *.wgsl set filetype=wgsl]])
