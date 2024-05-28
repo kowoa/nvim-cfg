@@ -1,4 +1,5 @@
-# 💤 LazyVim
+# Neovim Config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Notes
+
+- To get GitHub Copilot working, make sure to run `Copilot auth`
